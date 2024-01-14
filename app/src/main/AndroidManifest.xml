@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newtestadultomayor" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconapp_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewTestAdultoMayor" >
+        <activity
+            android:name=".GraphData"
+            android:exported="false" />
+        <activity android:name=".Barra" />
+        <activity android:name=".MarchaLugar" />
+        <activity android:name=".PasosDelante" />
+        <activity android:name=".RascarseEspalda" />
+        <activity android:name=".Flexibilidad" />
+        <activity android:name=".Flexion30min" />
+        <activity android:name=".SentarsePararse" />
+        <activity android:name=".Marcha" />
+        <activity android:name=".EscalaTineti" />
+        <activity android:name=".Information" />
+        <activity android:name=".ventana" />
+        <activity android:name=".prob" />
+        <activity android:name=".Inicio" />
+        <activity android:name=".Principal" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
